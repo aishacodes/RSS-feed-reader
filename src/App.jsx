@@ -12,7 +12,7 @@ function App() {
     <div className="App">
       <form onSubmit={addFeed}>
         <label>URL</label>
-        <div>
+        <div className="input-div">
           <input
             type="text"
             name="feed"
